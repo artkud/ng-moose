@@ -6,87 +6,91 @@
 
 
 
-
-<div class="container-fluid">
-    <header class="row header">
-      <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-lg-offset-1">
-        <h3 class="site-logo">
+               
+<div class="container-fluid site-container">
+    <header class="row header-row">
+      <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-lg-offset-1 header-logo-col">
+        <h3 class="site-logo header-logo">
             Moose    
           </h3>
       </div>
-      <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-6 col-md-4 col-md-offset-6 col-lg-3 col-lg-offset-5 company-information">
-        <p><img src="../assets/img/phone-ico.png" alt="">0535 954 74 54</p>
-        <p><img src="../assets/img/email-ico.png" alt="">email@moose.com</p>
+      <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-6 col-md-4 col-md-offset-6 col-lg-3 col-lg-offset-5 company-information header-contacts-col">
+        <p class="header-contacts header-contacts_tel"><img class="header-contacts__img" src="../assets/img/phone-ico.png" alt="">0535 954 74 54</p>
+        <p class="header-contacts header-contacts_email"><img class="header-contacts__img" src="../assets/img/email-ico.png" alt="">email@moose.com</p>
       </div>
     </header>
 
-    <div class="row">
-      <div class="col-md-12 col-lg-10 col-lg-offset-1 header-menu ">
-        <nav class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="row header-nav-row">
+      <div class="col-md-12 col-lg-10 col-lg-offset-1 header-menu header-nav-menu-col">
+        <nav class="navbar navbar-default navbar-static-top header-nav-menu" role="navigation">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-              <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
             </button>
           </div>
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Service</a></li>
-              <li><a href="#">Journal</a></li>
-              <li><a href="#">Features</a></li>
-              <li><a href="#">Contact</a></li>
+              <li class="navbar-nav__element"><a class="navbar-nav__href" href="#">Home</a></li>
+              <li class="navbar-nav__element"><a class="navbar-nav__href" href="#">Portfolio</a></li>
+              <li class="navbar-nav__element"><a class="navbar-nav__href" href="#">About</a></li>
+              <li class="navbar-nav__element"><a class="navbar-nav__href" href="#">Service</a></li>
+              <li class="navbar-nav__element"><a class="navbar-nav__href" href="#">Journal</a></li>
+              <li class="navbar-nav__element"><a class="navbar-nav__href" href="#">Features</a></li>
+              <li class="navbar-nav__element"><a class="navbar-nav__href" href="#">Contact</a></li>
             </ul>
-            <div class="nav navbar-nav navbar-right">
-              <a href="#"><img alt="RSS" src="../assets/img/rssico.png"></a>
-              <a href="#"><img alt="Facebook" src="../assets/img/facebookico.png"></a>
-              <a href="#"><img alt="Twitter" src="../assets/img/twitterico.png"></a>
-              <a href="#"><img alt="Dribble" src="../assets/img/dribble-ico.png"></a>
-              <a href="#"><img alt="Pinterest" src="../assets/img/pinterest-ico.png"></a>
+            <div class="nav navbar-nav navbar-nav-social">
+              <a class="navbar-nav-social__href" href="#"><img class="navbar-nav-social__img" alt="RSS" src="../assets/img/rssico.png"></a>
+              <a class="navbar-nav-social__href" href="#"><img class="navbar-nav-social__img" alt="Facebook" src="../assets/img/facebookico.png"></a>
+              <a class="navbar-nav-social__href" href="#"><img class="navbar-nav-social__img" alt="Twitter" src="../assets/img/twitterico.png"></a>
+              <a class="navbar-nav-social__href" href="#"><img class="navbar-nav-social__img" alt="Dribble" src="../assets/img/dribble-ico.png"></a>
+              <a class="navbar-nav-social__href" href="#"><img class="navbar-nav-social__img" alt="Pinterest" src="../assets/img/pinterest-ico.png"></a>
             </div>
           </div>
         </nav>
       </div>
     </div>
-    <section class="row">
+  
+    <section class="row carousel-row">
       <div class="carousel slide" id="carousel-241576">
         <div class="carousel-inner">
-          <div class="item active">
-            <img alt="Carousel Bootstrap First" src="../assets/img/slider.jpg">
-            <div class="carousel-caption">
-              <h3 class="text-center">
+          <div class="item active carousel-item">
+            <img class="carousel-item__img" alt="Carousel Bootstrap First" src="../assets/img/slider.jpg">
+            <div class="carousel-caption carousel-item__caption">
+              <h3 class="text-center carousel-item__header-top">
                   Moose bring awesomemeness
                 </h3>
-              <h4>
+              <h4 class="carousel-item__header-bottom">
                   A responsive template with clean and professional design
                 </h4>
-              <button type="button" class="btn btn-danger btn-default">
+              <button type="button" class="btn btn-danger btn-default carousel-item__btn">
                 SEE PROJECT
               </button>
             </div>
           </div>
-          <div class="item">
-            <img alt="Carousel Bootstrap Second" src="../assets/img/slider2.jpg">
-            <div class="carousel-caption">
-              <h3 class="text-center">
+          <div class="item carousel-item">
+            <img class="carousel-item__img" alt="Carousel Bootstrap Second" src="../assets/img/slider2.jpg">
+            <div class="carousel-caption carousel-item__caption">
+              <h3 class="text-center carousel-item__header-top">
                   Moose bring sharpness
                 </h3>
-              <h4>
+              <h4 class="carousel-item__header-bottom">
                   Accuracy and precision in details
                 </h4>
-              <button type="button" class="btn btn-danger btn-default">
+              <button type="button" class="btn btn-danger btn-default carousel-item__btn">
                 SEE PROJECT
               </button>
             </div>
           </div>
         </div>
-        <a class="left carousel-control" href="#carousel-241576" data-slide="prev"></a>
-        <a class="right carousel-control" href="#carousel-241576" data-slide="next"></a>
+        <a class="left carousel-control carousel-control_left" href="#carousel-241576" data-slide="prev"></a>
+        <a class="right carousel-control carousel-control_right" href="#carousel-241576" data-slide="next"></a>
       </div>
     </section>
 
-    <main class="row services-block">
+    <main class="row services-row services-block">
       <div class="col-sm-12 col-md-12">
 
         <header><h2>
@@ -116,7 +120,7 @@
       </div>
     </main>
 
-    <section class="row">
+    <section class="row portfolio-row">
       <div class="row portfolio-block">
         <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
           <header><h3>
@@ -147,9 +151,9 @@
         </div>
       </div>
     </section>
+  
 
-
-    <section class="row latest-blog">
+    <section class="row blog-row latest-blog">
       <header> <h2>Our latest blog</h2>
       <h5>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cum sociis natoque penatibus et magnis dis 
           parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus facilisis egestas eget quam.</h5>
@@ -251,9 +255,8 @@
         <a class="right carousel-control" href="#latest-blog-carousel" data-slide="next"><i class="fa fa-chevron-right fa-2x"></i></a>
       </div>
     </section>
-
-
-    <section class="row about-us">
+  
+    <section class="row about-row about-us">
       <article class="col-sm-6 col-md-3 col-lg-2 col-lg-offset-2">
         <header><h2>
             Get In Touch
@@ -297,7 +300,8 @@
         </p>
       </div>
     </section>
-    <footer class="row footer">
+  
+    <footer class="row footer-row">
       <div class="col-lg-offset-2">© 2013 Marble. All rights reserved.</div>
     </footer>
   </div>
