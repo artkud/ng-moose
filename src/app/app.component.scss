@@ -8,7 +8,8 @@ $body-color: blue;
   font-family: Archer;
   src: url(../assets/fonts/ArcherPro-Medium.otf);
 }
-.body{font-family: "Roboto",sans-serif;}
+
+.body { font-family: "Roboto", sans-serif; }
 
 .header {
   height: 87px;
@@ -18,17 +19,16 @@ $body-color: blue;
   color: #666;
   font-weight: 700;
   font-size: 40px;
-  font-family: "Archer","Memphis","Beton","Rockwell","Sanchez", serif;
+  font-family: "Archer", "Memphis", "Beton", "Rockwell", "Sanchez", serif;
 }
 
 .company-information {
   display: inline-flex;
   height: 87px;
   color: #888;
-  white-space: nowrap;
+  white-space: nowrap;;;
   font-weight: 400;
   font-size: 12px;
-
   align-items: center;
   justify-content: flex-end;
 }
@@ -62,7 +62,6 @@ body .row:nth-child(2) {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 15px;
-
 }
 
 .navbar {
@@ -148,7 +147,6 @@ body .row:nth-child(2) {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
-
   justify-content: center;
 }
 
@@ -196,17 +194,12 @@ body .row:nth-child(2) {
   color: #616161;
   text-align: center;
   white-space: pre-line;
-  font-weight: 300;
-  font-size: 18px;
-  font-family: "Archer";
-}
+  font-weight: 300; font-size: 18px; font-family: "Archer"; }
 
 .services-block .thumbnail {
-  overflow: none;
-  margin-right: 45px;
   padding-top: 124px;
-  min-width: 104px;
-  min-height: 109px;
+  /*min-width: 104px;margin-right: 45px;
+  min-height: 109px;   */
   border: none;
   background: none;
   color: #BBB;
@@ -215,7 +208,6 @@ body .row:nth-child(2) {
   white-space: nowrap;
   font-weight: 700;
   font-size: 15px;
-
 }
 
 #services-1 {
@@ -338,7 +330,6 @@ body .row:nth-child(2) {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 16px;
-
 }
 
 .latest-blog h5 {
@@ -347,7 +338,6 @@ body .row:nth-child(2) {
   white-space: pre-line;
   font-weight: 400;
   font-size: 15px;
-
 }
 
 #latest-blog-carousel h4 {
@@ -356,7 +346,6 @@ body .row:nth-child(2) {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 15px;
-
 }
 
 #latest-blog-carousel p {
@@ -365,7 +354,6 @@ body .row:nth-child(2) {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 12px;
-
 }
 
 #latest-blog-carousel .thumbnail {
@@ -408,7 +396,6 @@ body .row:nth-child(2) {
   color: #CACACA;
   font-weight: 400;
   font-size: 14px;
-
 }
 
 .about-us h2 {
@@ -429,7 +416,6 @@ body .row:nth-child(2) {
   white-space: pre;
   font-weight: 400;
   font-size: 14px;
-
 }
 
 @media (min-width: 100px) and (max-width: 590px) {

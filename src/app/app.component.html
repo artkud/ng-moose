@@ -5,7 +5,7 @@
 
 
 
-
+                           
                
 <div class="container-fluid site-container">
     <header class="row header-row">
@@ -53,198 +53,206 @@
       </div>
     </div>
   
-    <section class="row carousel-row">
-      <div class="carousel slide" id="carousel-241576">
-        <div class="carousel-inner">
-          <div class="item active carousel-item">
-            <img class="carousel-item__img" alt="Carousel Bootstrap First" src="../assets/img/slider.jpg">
-            <div class="carousel-caption carousel-item__caption">
-              <h3 class="text-center carousel-item__header-top">
+    <section class="row main-carousel-row">
+      <div class="carousel slide main-carousel" id="carousel-241576">
+        <div class="carousel-inner main-carousel-inner">
+          <div class="item active main-carousel-item">
+            <img class="main-carousel-item__img" alt="Carousel Bootstrap First" src="../assets/img/slider.jpg">
+            <div class="carousel-caption main-carousel-item__caption">
+              <h3 class="main-carousel-item__header-top">
                   Moose bring awesomemeness
                 </h3>
-              <h4 class="carousel-item__header-bottom">
+              <h4 class="main-carousel-item__header-bottom">
                   A responsive template with clean and professional design
                 </h4>
-              <button type="button" class="btn btn-danger btn-default carousel-item__btn">
+              <button type="button" class="btn btn-danger btn-default main-carousel-item__btn">
                 SEE PROJECT
               </button>
             </div>
           </div>
-          <div class="item carousel-item">
-            <img class="carousel-item__img" alt="Carousel Bootstrap Second" src="../assets/img/slider2.jpg">
-            <div class="carousel-caption carousel-item__caption">
-              <h3 class="text-center carousel-item__header-top">
+          <div class="item main-carousel-item">
+            <img class="main-carousel-item__img" alt="Carousel Bootstrap Second" src="../assets/img/slider2.jpg">
+            <div class="carousel-caption main-carousel-item__caption">
+              <h3 class="main-carousel-item__header-top">
                   Moose bring sharpness
                 </h3>
-              <h4 class="carousel-item__header-bottom">
+              <h4 class="main-carousel-item__header-bottom">
                   Accuracy and precision in details
                 </h4>
-              <button type="button" class="btn btn-danger btn-default carousel-item__btn">
+              <button type="button" class="btn btn-danger btn-default main-carousel-item__btn">
                 SEE PROJECT
               </button>
             </div>
           </div>
         </div>
-        <a class="left carousel-control carousel-control_left" href="#carousel-241576" data-slide="prev"></a>
-        <a class="right carousel-control carousel-control_right" href="#carousel-241576" data-slide="next"></a>
+        <a class="left carousel-control main-carousel-control main-carousel-control_left" href="#carousel-241576" data-slide="prev"></a>
+        <a class="right carousel-control main-carousel-control main-carousel-control_right" href="#carousel-241576" data-slide="next"></a>
       </div>
     </section>
 
     <main class="row services-row services-block">
-      <div class="col-sm-12 col-md-12">
+      <div class="col-sm-12 col-md-12 services-col">
 
-        <header><h2>
-            <span>Creativity</span> is important for us
+        <header class="services-header">
+          <h2 class="services-header__text">
+            <span class="services-header__accent">Creativity</span> is important for us
           </h2>
           </header>
-        <p>
+        <p class="services-text">
           Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Duis mollis, est non commodo luctus, nisi erat porttitor ligula eget lacinia odio nec elit.
         </p>
 
 
-        <div class="col-xs-offset-1 col-sm-offset-3 col-md-offset-2 row">
-
-
-          <div class="col-sm-3 col-md-2 thumbnail" id="services-1">
+        
+        <div class="col-xs-10 col-sm-6 col-md-8 col-lg-6 col-xs-offset-1 col-sm-offset-3 col-md-offset-2 col-lg-offset-3">
+         <div class="row services-thumbnail-row">
+          <div class="col-xs-12 col-sm-6 col-md-3 services-thumbnail thumbnail" id="services-1">
             Interface Design
           </div>
-          <div class="col-sm-4 col-md-2 thumbnail" id="services-2">Motion Graphic
+          <div class="col-xs-12 col-sm-6 col-md-3 services-thumbnail" id="services-2">Motion Graphic
           </div>
-          <div class="col-sm-3 col-md-2 thumbnail" id="services-3">
+          <div class="col-xs-12 col-sm-6 col-md-3 services-thumbnail" id="services-3">
             Photography
           </div>
-          <div class="col-sm-4 col-md-2 thumbnail" id="services-4">
+          <div class="col-xs-12 col-sm-6 col-md-3 services-thumbnail" id="services-4">
             Illustration
           </div>
+        </div> 
         </div>
+        
       </div>
     </main>
 
     <section class="row portfolio-row">
-      <div class="row portfolio-block">
-        <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
-          <header><h3>
-              <span>Latest Projects | </span> making stuff is awesome
+      <!--<div class="row portfolio-block">-->
+        <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 portfolio-header-col">
+          <header class="portfolio-header"><h3 class="portfolio-header__text">
+              <span class="portfolio-header__accent">Latest Projects | </span> making stuff is awesome
             </h3></header>
-          <ul>
-            <li>All</li>
-            <li>Web desıgn</li>
-            <li>Graphics</li>
-            <li>Video</li>
-            <li>Illustration</li>
-            <li>Audio</li>
+          <ul class="portfolio-header-links">
+            <li class="portfolio-header-links__element"><a  class="portfolio-header-links__href" href="#">All</a></li>
+            <li class="portfolio-header-links__element"><a class="portfolio-header-links__href" href="#">Web desıgn</a></li>
+            <li class="portfolio-header-links__element"><a class="portfolio-header-links__href" href="#">Graphics</a></li>
+            <li class="portfolio-header-links__element"><a class="portfolio-header-links__href" href="#">Video</a></li>
+            <li class="portfolio-header-links__element"><a class="portfolio-header-links__href" href="#">Illustration</a></li>
+            <li class="portfolio-header-links__element"><a class="portfolio-header-links__href" href="#">Audio</a></li>
           </ul>
         </div>
         <div class="col-lg-10 col-lg-offset-1">
-          <img src="../assets/img/thumb1.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6">
-          <img src="../assets/img/thumb2.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6">
-          <img src="../assets/img/thumb3.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6">
-          <img src="../assets/img/thumb4.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6">
-          <img src="../assets/img/thumb5.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6">
-          <img src="../assets/img/thumb6.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6">
-          <img src="../assets/img/thumb7.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6">
-          <img src="../assets/img/thumb8.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6">
-          <img src="../assets/img/thumb9.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6">
-          <img src="../assets/img/thumb10.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6">
-          <img src="../assets/img/thumb11.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6">
-          <img src="../assets/img/thumb12.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6">
+          <div class="row portfolio-thumbnail-row">
+          <img src="../assets/img/thumb1.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6 portfolio-thumbnail">
+          <img src="../assets/img/thumb2.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6 portfolio-thumbnail">
+          <img src="../assets/img/thumb3.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6 portfolio-thumbnail">
+          <img src="../assets/img/thumb4.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6 portfolio-thumbnail">
+          <img src="../assets/img/thumb5.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6 portfolio-thumbnail">
+          <img src="../assets/img/thumb6.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6 portfolio-thumbnail">
+          <img src="../assets/img/thumb7.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6 portfolio-thumbnail">
+          <img src="../assets/img/thumb8.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6 portfolio-thumbnail">
+          <img src="../assets/img/thumb9.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6 portfolio-thumbnail">
+          <img src="../assets/img/thumb10.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6 portfolio-thumbnail">
+          <img src="../assets/img/thumb11.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6 portfolio-thumbnail">
+          <img src="../assets/img/thumb12.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6 portfolio-thumbnail">
+            </div>
         </div>
-      </div>
     </section>
   
 
     <section class="row blog-row latest-blog">
-      <header> <h2>Our latest blog</h2>
-      <h5>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cum sociis natoque penatibus et magnis dis 
+      <div class="col-sm-12 col-md-12 blog-col">
+      <header class="blog-header"> <h3 class="blog-header__top-text">Our latest blog</h3>
+      <h5 class="blog-header__bottom-text">Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cum sociis natoque penatibus et magnis dis 
           parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus facilisis egestas eget quam.</h5>
       </header>
-      <div id="latest-blog-carousel" class="carousel slide">
-        <div class="carousel-inner">
-          <div class="item active">
-            <div class="row">
-              <div class="col-md-3">
-                <a href="#" class="thumbnail"><img class="img-responsive" src="../assets/img/last_slider1.jpg" alt="Thumb11">
-                  <h4>Tortor Ullamcorper Fringilla Euismod</h4>
-                  <p>21 may 2013 | Macro, photography</p>
+      <div id="blog-carousel" class="carousel slide blog-carousel">
+        <div class="carousel-inner blog-carousel-inner">
+          <div class="item active blog-carousel-item">
+            <div class="row blog-carousel-item-row">
+              <div class="col-xs-6 col-sm-4 col-md-3 blog-carousel-item-col">
+                <a href="#" class="thumbnail blog-carousel-thumbnail"><img class="img-responsive blog-carousel-thumbnail__img" src="../assets/img/last_slider1.jpg" alt="Thumb11">
+                  <h4 class="blog-carousel-thumbnail__header">Tortor Ullamcorper Fringilla Euismod</h4>
+                  <p class="blog-carousel-thumbnail__text">21 may 2013 | Macro, photography</p>
                 </a>
               </div>
-              <div class="col-md-3">
-                <a href="#" class="thumbnail"><img class="img-responsive" src="../assets/img/last_slider2.jpg" alt="Thumb12">
-                  <h4>Tortor Ullamcorper Fringilla Euismod</h4>
-                  <p>21 may 2013 | Macro, photography</p>
+              <div class="col-xs-6 col-sm-4 col-md-3 blog-carousel-item-col">
+                <a href="#" class="thumbnail blog-carousel-thumbnail"><img class="img-responsive blog-carousel-thumbnail__img" src="../assets/img/last_slider2.jpg" alt="Thumb12">
+                  <h4 class="blog-carousel-thumbnail__header">Tortor Ullamcorper Fringilla Euismod</h4>
+                  <p class="blog-carousel-thumbnail__text">21 may 2013 | Macro, photography</p>
                 </a>
               </div>
-              <div class="col-md-3">
-                <a href="#" class="thumbnail"><img class="img-responsive" src="../assets/img/last_slider3.jpg" alt="Thumb13">
-                  <h4>Tortor Ullamcorper Fringilla Euismod</h4>
-                  <p>21 may 2013 | Macro, photography</p>
+              <div class="col-xs-6 col-sm-4 col-md-3 blog-carousel-item-col">
+                <a href="#" class="thumbnail blog-carousel-thumbnail"><img class="img-responsive blog-carousel-thumbnail__img" src="../assets/img/last_slider3.jpg" alt="Thumb13">
+                  <h4 class="blog-carousel-thumbnail__header">Tortor Ullamcorper Fringilla Euismod</h4>
+                  <p class="blog-carousel-thumbnail__text">21 may 2013 | Macro, photography</p>
                 </a>
               </div>
-              <div class="col-md-3">
-                <a href="#" class="thumbnail"><img class="img-responsive" src="../assets/img/last_slider4.jpg" alt="Thumb14">
-                  <h4>Tortor Ullamcorper Fringilla Euismod</h4>
-                  <p>21 may 2013 | Macro, photography</p>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="row">
-              <div class="col-md-3">
-                <a href="#" class="thumbnail"><img class="img-responsive" src="../assets/img/last_slider1.jpg" alt="Thumb21">
-                  <h4>Tortor Ullamcorper Fringilla Euismod</h4>
-                  <p>21 may 2013 | Macro, photography</p>
-                </a>
-              </div>
-              <div class="col-md-3">
-                <a href="#" class="thumbnail"><img class="img-responsive" src="../assets/img/last_slider2.jpg" alt="Thumb22">
-                  <h4>Tortor Ullamcorper Fringilla Euismod</h4>
-                  <p>21 may 2013 | Macro, photography</p>
-                </a>
-              </div>
-              <div class="col-md-3">
-                <a href="#" class="thumbnail"><img class="img-responsive" src="../assets/img/last_slider3.jpg" alt="Thumb23">
-                  <h4>Tortor Ullamcorper Fringilla Euismod</h4>
-                  <p>21 may 2013 | Macro, photography</p>
-                </a>
-              </div>
-              <div class="col-md-3">
-                <a href="#" class="thumbnail"><img class="img-responsive" src="../assets/img/last_slider4.jpg" alt="Thumb24">
-                  <h4>Tortor Ullamcorper Fringilla Euismod</h4>
-                  <p>21 may 2013 | Macro, photography</p>
+              <div class="col-xs-6 col-sm-4 col-md-3 blog-carousel-item-col">
+                <a href="#" class="thumbnail blog-carousel-thumbnail"><img class="img-responsive blog-carousel-thumbnail__img" src="../assets/img/last_slider4.jpg" alt="Thumb14">
+                  <h4 class="blog-carousel-thumbnail__header">Tortor Ullamcorper Fringilla Euismod</h4>
+                  <p class="blog-carousel-thumbnail__text">21 may 2013 | Macro, photography</p>
                 </a>
               </div>
             </div>
           </div>
-          <div class="item">
-            <div class="row">
-              <div class="col-md-3">
-                <a href="#" class="thumbnail"><img class="img-responsive" src="../assets/img/last_slider1.jpg" alt="Thumb31">
-                  <h4>Tortor Ullamcorper Fringilla Euismod</h4>
-                  <p>21 may 2013 | Macro, photography</p>
+          
+          <div class="item active blog-carousel-item">
+            <div class="row blog-carousel-item-row">
+              <div class="col-xs-6 col-sm-4 col-md-3 blog-carousel-item-col">
+                <a href="#" class="thumbnail blog-carousel-thumbnail"><img class="img-responsive blog-carousel-thumbnail__img" src="../assets/img/last_slider1.jpg" alt="Thumb21">
+                  <h4 class="blog-carousel-thumbnail__header">Tortor Ullamcorper Fringilla Euismod</h4>
+                  <p class="blog-carousel-thumbnail__text">21 may 2013 | Macro, photography</p>
                 </a>
               </div>
-              <div class="col-md-3">
-                <a href="#" class="thumbnail"><img class="img-responsive" src="../assets/img/last_slider2.jpg" alt="Thumb32">
-                  <h4>Tortor Ullamcorper Fringilla Euismod</h4>
-                  <p>21 may 2013 | Macro, photography</p>
+              <div class="col-xs-6 col-sm-4 col-md-3 blog-carousel-item-col">
+                <a href="#" class="thumbnail blog-carousel-thumbnail"><img class="img-responsive blog-carousel-thumbnail__img" src="../assets/img/last_slider2.jpg" alt="Thumb22">
+                  <h4 class="blog-carousel-thumbnail__header">Tortor Ullamcorper Fringilla Euismod</h4>
+                  <p class="blog-carousel-thumbnail__text">21 may 2013 | Macro, photography</p>
                 </a>
               </div>
-              <div class="col-md-3">
-                <a href="#" class="thumbnail"><img class="img-responsive" src="../assets/img/last_slider3.jpg" alt="Thumb33">
-                  <h4>Tortor Ullamcorper Fringilla Euismod</h4>
-                  <p>21 may 2013 | Macro, photography</p>
+              <div class="col-xs-6 col-sm-4 col-md-3 blog-carousel-item-col">
+                <a href="#" class="thumbnail blog-carousel-thumbnail"><img class="img-responsive blog-carousel-thumbnail__img" src="../assets/img/last_slider3.jpg" alt="Thumb23">
+                  <h4 class="blog-carousel-thumbnail__header">Tortor Ullamcorper Fringilla Euismod</h4>
+                  <p class="blog-carousel-thumbnail__text">21 may 2013 | Macro, photography</p>
                 </a>
               </div>
-              <div class="col-md-3">
-                <a href="#" class="thumbnail"><img class="img-responsive" src="../assets/img/last_slider4.jpg" alt="Thumb34">
-                  <h4>Tortor Ullamcorper Fringilla Euismod</h4>
-                  <p>21 may 2013 | Macro, photography</p>
+              <div class="col-xs-6 col-sm-4 col-md-3 blog-carousel-item-col">
+                <a href="#" class="thumbnail blog-carousel-thumbnail"><img class="img-responsive blog-carousel-thumbnail__img" src="../assets/img/last_slider4.jpg" alt="Thumb24">
+                  <h4 class="blog-carousel-thumbnail__header">Tortor Ullamcorper Fringilla Euismod</h4>
+                  <p class="blog-carousel-thumbnail__text">21 may 2013 | Macro, photography</p>
                 </a>
               </div>
             </div>
-
           </div>
+          
+          <div class="item active blog-carousel-item">
+            <div class="row blog-carousel-item-row">
+              <div class="col-xs-6 col-sm-4 col-md-3 blog-carousel-item-col">
+                <a href="#" class="thumbnail blog-carousel-thumbnail"><img class="img-responsive blog-carousel-thumbnail__img" src="../assets/img/last_slider1.jpg" alt="Thumb31">
+                  <h4 class="blog-carousel-thumbnail__header">Tortor Ullamcorper Fringilla Euismod</h4>
+                  <p class="blog-carousel-thumbnail__text">21 may 2013 | Macro, photography</p>
+                </a>
+              </div>
+              <div class="col-xs-6 col-sm-4 col-md-3 blog-carousel-item-col">
+                <a href="#" class="thumbnail blog-carousel-thumbnail"><img class="img-responsive blog-carousel-thumbnail__img" src="../assets/img/last_slider2.jpg" alt="Thumb32">
+                  <h4 class="blog-carousel-thumbnail__header">Tortor Ullamcorper Fringilla Euismod</h4>
+                  <p class="blog-carousel-thumbnail__text">21 may 2013 | Macro, photography</p>
+                </a>
+              </div>
+              <div class="col-xs-6 col-sm-4 col-md-3 blog-carousel-item-col">
+                <a href="#" class="thumbnail blog-carousel-thumbnail"><img class="img-responsive blog-carousel-thumbnail__img" src="../assets/img/last_slider3.jpg" alt="Thumb33">
+                  <h4 class="blog-carousel-thumbnail__header">Tortor Ullamcorper Fringilla Euismod</h4>
+                  <p class="blog-carousel-thumbnail__text">21 may 2013 | Macro, photography</p>
+                </a>
+              </div>
+              <div class="col-xs-6 col-sm-4 col-md-3 blog-carousel-item-col">
+                <a href="#" class="thumbnail blog-carousel-thumbnail"><img class="img-responsive blog-carousel-thumbnail__img" src="../assets/img/last_slider4.jpg" alt="Thumb34">
+                  <h4 class="blog-carousel-thumbnail__header">Tortor Ullamcorper Fringilla Euismod</h4>
+                  <p class="blog-carousel-thumbnail__text">21 may 2013 | Macro, photography</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          
         </div>
         <ol class="carousel-indicators">
           <li data-target="#latest-blog-carousel" data-slide-to="0" class="active"></li>
@@ -254,6 +262,7 @@
         <a class="left carousel-control" href="#latest-blog-carousel" data-slide="prev"><i class="fa fa-chevron-left fa-2x"></i></a>
         <a class="right carousel-control" href="#latest-blog-carousel" data-slide="next"><i class="fa fa-chevron-right fa-2x"></i></a>
       </div>
+        </div>
     </section>
   
     <section class="row about-row about-us">
