@@ -519,7 +519,7 @@ body .row:nth-child(2) {
 }
 
 @media (min-width: 767px) {
-  .header-menu {        
+  .header-menu {
     border: none;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
@@ -538,4 +538,215 @@ body .row:nth-child(2) {
     -moz-box-shadow: none;
     box-shadow: none;
   }
+}
+
+.site-main-container { }
+
+.header-row { }
+
+.header-logo-col {
+}
+
+.header-logo {
+}
+
+.header-contacts-col {
+}
+
+.header-contacts {
+  &_tel {
+  }
+  &_email {
+  }
+  &__img {
+  }
+}
+
+.header-navbar-row {
+}
+
+.header-navbar-col {
+}
+
+.header-navbar {
+
+  &__header {
+  }
+  &__toggle {
+  }
+  &__sr {
+  }
+  &__icon-bar {
+  }
+}
+
+.header-navbar-collapse {
+}
+
+.header-navbar-menu {
+  &__element {
+  }
+  &__href {
+    &:hover {
+    }
+  }
+}
+
+.header-navbar-social {
+  &__href {
+    &:hover {
+    }
+  }
+  &__img {
+  }
+}
+
+.main-carousel-row {
+}
+
+.main-carousel {
+
+  &-inner {
+  }
+}
+
+.main-carousel-item {
+
+  &.active {
+  }
+
+  &__img {
+  }
+  &__caption {
+  }
+
+  &__header-top {
+  }
+  &__header-bottom {
+  }
+
+  &__btn {
+  }
+
+}
+
+.main-carousel-control_left {
+}
+
+.main-carousel-control_right {
+}
+
+.services-row {
+}
+
+.services-col {
+}
+
+.services-header {
+
+  &__text {
+  }
+  &__accent {
+  }
+}
+
+.services-text {
+}
+
+.services-thumbnail-row {
+}
+
+.services-thumbnail-col { }
+
+.services-thumbnail { }
+
+.portfolio-row {
+}
+
+.portfolio-header-col {
+}
+
+.portfolio-header {
+
+  &__text {
+  }
+  &__accent {
+  }
+  &-links {
+  }
+  &-links__element {
+  }
+  &-links__href {
+    &:hover {
+    }
+  }
+}
+
+.portfolio-thumbnail-row {
+}
+
+.portfolio-thumbnail {
+}
+
+.blog-row {
+}
+
+.blog-col {
+}
+
+.blog-header {
+
+  &__top-text {
+  }
+  &__bottom-text {
+  }
+}
+
+.owl-carousel {
+  .item {
+  }
+}
+
+.blog-carousel-item {
+}
+
+.blog-carousel-thumbnail {
+
+  &__img {
+  }
+  &__header {
+  }
+  &__text {
+  }
+}
+
+.about { }
+
+.about-row {
+}
+
+.about-article-col {
+}
+
+.about-article {
+  &-header {
+  }
+  &-header__text {
+  }
+  &__text {
+  }
+}
+
+.footer { }
+
+.footer-container {
+}
+
+.footer-row {
+}
+
+.footer-col {
+}
+
+.footer-text {
 }
