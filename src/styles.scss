@@ -1,6 +1,6 @@
 $body-color: #616161;
 $body-color-accent: #FA6C65;
-$body-font-family: "Roboto",sans-serif;
+$body-font-family: "Roboto", sans-serif;
 $body-font-size: 14px;
 @mixin container-max-width {
   max-width: 1570px;
@@ -608,6 +608,9 @@ a:active {
   }
   .blog-carousel-thumbnail__img {
     max-height: 145px
+  }
+  .about-article-col {
+    min-height: 175px
   }
 }
 
