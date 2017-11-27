@@ -4,351 +4,391 @@
   <meta charset="utf-8">
   <title>NgMoose</title>
   <base href="/">
-
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto+Slab:300,700|Roboto:400,700|Sanchez" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css" />
 </head>
+
 <body>
-  <app-root></app-root>
-   <header class="header">
-  <div class="container-fluid header-container">
-  <div class="row header-row">
-    <div class="col-xs-3 col-sm-2 col-md-2 header-logo-col">
-      <h3 class="header-logo">
-        Moose
-      </h3>
-    </div>
-    <div class="col-xs-9 col-sm-10 col-md-10 header-contacts-col">
-      <p class="header-contacts header-contacts_tel"><img class="header-contacts__img" src="../assets/img/phone-ico.png" alt="">0535 954 74 54</p>
-      <p class="header-contacts header-contacts_email">
-        <img class="header-contacts__img" src="../assets/img/email-ico.png" alt="">email@moose.com</p>
-    </div>
-  </div>
-</div>
-   </header>
-  <div class="header-nav">
-  <div class="container-fluid header-nav-container">
-  <div class="row header-nav-row">
-    <div class="col-xs-12 col-sm-12 col-md-12 header-nav-col">
-      <nav class="navbar navbar-default navbar-static-top header-nav-navbar" role="navigation">
-        <div class="navbar-header header-nav-navbar__header">
-          <button type="button" class="navbar-toggle header-nav-navbar__toggle" data-toggle="collapse" data-target="#header-nav-navbar__collapse">
-            <span class="sr-only header-nav-navbar__sr">Toggle navigation</span>
-            <span class="icon-bar header-nav-navbar__icon-bar"></span>
-            <span class="icon-bar header-nav-navbar__icon-bar"></span>
-            <span class="icon-bar header-nav-navbar__icon-bar"></span>
-          </button>
+<app-root></app-root>
+<header class="header">
+    <div class="container-fluid header-container">
+      <div class="row header-row">
+        <div class="col-xs-4 col-sm-2 col-md-2 header-logo-col">
+          <a href="#" class="header-logo">
+              Moose
+            </a>
         </div>
-        <div class="collapse navbar-collapse header-nav-navbar__collapse" id="header-nav-navbar__collapse">
-          <ul class="nav header-nav-navbar-list">
-            <li class="header-nav-navbar-list__item"><a class="header-nav-navbar-list__href" href="#">Home</a></li>
-            <li class="header-nav-navbar-list__item"><a class="header-nav-navbar-list__href" href="#">Portfolio</a></li>
-            <li class="header-nav-navbar-list__item"><a class="header-nav-navbar-list__href" href="#">About</a></li>
-            <li class="header-nav-navbar-list__item"><a class="header-nav-navbar-list__href" href="#">Service</a></li>
-            <li class="header-nav-navbar-list__item"><a class="header-nav-navbar-list__href" href="#">Journal</a></li>
-            <li class="header-nav-navbar-list__item"><a class="header-nav-navbar-list__href" href="#">Features</a></li>
-            <li class="header-nav-navbar-list__item"><a class="header-nav-navbar-list__href" href="#">Contact</a></li>
-          </ul>
-          <div class="nav header-nav-navbar-social">
-            <a class="header-nav-navbar-social__href" href="#"><img class="header-nav-navbar-social__img" alt="RSS" src="../assets/img/rssico.png"></a>
-            <a class="header-nav-navbar-social__href" href="#"><img class="header-nav-navbar-social__img" alt="Facebook" src="../assets/img/facebookico.png"></a>
-            <a class="header-nav-navbar-social__href" href="#"><img class="header-nav-navbar-social__img" alt="Twitter" src="../assets/img/twitterico.png"></a>
-            <a class="header-nav-navbar-social__href" href="#"><img class="header-nav-navbar-social__img" alt="Dribble" src="../assets/img/dribble-ico.png"></a>
-            <a class="header-nav-navbar-social__href" href="#"><img class="header-nav-navbar-social__img" alt="Pinterest" src="../assets/img/pinterest-ico.png"></a>
-          </div>
+        <div class="col-xs-8 col-sm-10 col-md-10 header-contacts-col">
+          <a href="tel:05359547454" class="header-contacts header-contacts_tel"><img class="header-contacts__img" src="../assets/img/header-contacts_tel.png" alt="header-contacts_tel">0535 954 74 54</a>
+          <a href="mailto:email@moose.com" class="header-contacts header-contacts_email">
+            <img class="header-contacts__img" src="../assets/img/header-contacts_email.png" alt="header-contacts_email">email@moose.com</a>
         </div>
-      </nav>
+      </div>
     </div>
-  </div>
-  </div>
-  </div>
-  <section class="main-carousel">
-  <div class="container-fluid main-carousel-container">
-  <div class="row main-carousel-row">
-    <div class="col-xs-12 main-carousel-col">
-    <div class="carousel slide main-carousel-slide" id="carousel-241576">
-      <div class="carousel-inner main-carousel-slide-inner">
-        <div class="item active main-carousel-slide-item">
-          <img class="main-carousel-slide-item__img" alt="Carousel Bootstrap First" src="../assets/img/main-carousel-slide-item__img_1.jpg">
-          <div class="carousel-caption main-carousel-slide-item__caption">
-            <div class="main-carousel-slide-item__header-wrapper"><h3 class="main-carousel-slide-item__header-top">
-              Moose bring awesomemeness
-            </h3></div>
-            <div class="main-carousel-slide-item__header-wrapper"><h4 class="main-carousel-slide-item__header-bottom">
-              A responsive template with clean and professional design
-            </h4></div>
-            <button type="button" class="btn btn-danger btn-default main-carousel-slide-item__btn">
-              SEE PROJECT
-            </button>
-          </div>
-        </div>
-        <div class="item main-carousel-slide-item">
-          <img class="main-carousel-slide-item__img" alt="Carousel Bootstrap Second" src="../assets/img/main-carousel-slide-item__img_2.jpg">
-          <div class="carousel-caption main-carousel-slide-item__caption">
-            <div class="main-carousel-slide-item__header-wrapper">
-            <h3 class="main-carousel-slide-item__header-top">
-              Moose bring sharpness
-            </h3>
+</header>
+<div class="header-nav">
+    <div class="container-fluid header-nav-container">
+      <div class="row header-nav-row">
+        <div class="col-xs-12 col-sm-12 col-md-12 header-nav-col">
+          <nav class="navbar navbar-default navbar-static-top header-nav-navbar" role="navigation">
+            <div class="navbar-header header-nav-navbar__header">
+              <button type="button" class="navbar-toggle header-nav-navbar__toggle collapsed" data-toggle="collapse" data-target="#header-nav-navbar__collapse">
+                <span class="sr-only header-nav-navbar__sr">Toggle navigation</span>
+                <span class="icon-bar header-nav-navbar__icon-bar header-nav-navbar__icon-bar_top"></span>
+                <span class="icon-bar header-nav-navbar__icon-bar header-nav-navbar__icon-bar_middle"></span>
+                <span class="icon-bar header-nav-navbar__icon-bar header-nav-navbar__icon-bar_bottom"></span>
+              </button>
+            </div>
+            <div class="collapse navbar-collapse header-nav-navbar__collapse" id="header-nav-navbar__collapse">
+              <ul class="nav header-nav-navbar-list">
+                <li class="header-nav-navbar-list__item"><a class="header-nav-navbar-list__href" href="#">Home</a></li>
+                <li class="header-nav-navbar-list__item"><a class="header-nav-navbar-list__href" href="#">Portfolio</a></li>
+                <li class="header-nav-navbar-list__item"><a class="header-nav-navbar-list__href" href="#">About</a></li>
+                <li class="header-nav-navbar-list__item"><a class="header-nav-navbar-list__href" href="#">Service</a></li>
+                <li class="header-nav-navbar-list__item"><a class="header-nav-navbar-list__href" href="#">Journal</a></li>
+                <li class="header-nav-navbar-list__item"><a class="header-nav-navbar-list__href" href="#">Features</a></li>
+                <li class="header-nav-navbar-list__item"><a class="header-nav-navbar-list__href" href="#">Contact</a></li>
+              </ul>
+              <div class="nav header-nav-navbar-social">
+                <a class="header-nav-navbar-social__href" href="#"><img class="header-nav-navbar-social__img" alt="RSS" src="../assets/img/header-nav-navbar-social__img_rss.png"></a>
+                <a class="header-nav-navbar-social__href" href="#"><img class="header-nav-navbar-social__img" alt="Facebook" src="../assets/img/header-nav-navbar-social__img_facebook.png"></a>
+                <a class="header-nav-navbar-social__href" href="#"><img class="header-nav-navbar-social__img" alt="Twitter" src="../assets/img/header-nav-navbar-social__img_twitter.png"></a>
+                <a class="header-nav-navbar-social__href" href="#"><img class="header-nav-navbar-social__img" alt="Dribble" src="../assets/img/header-nav-navbar-social__img_dribble.png"></a>
+                <a class="header-nav-navbar-social__href" href="#"><img class="header-nav-navbar-social__img" alt="Pinterest" src="../assets/img/header-nav-navbar-social__img_pinterest.png"></a>
               </div>
-            <div class="main-carousel-slide-item__header-wrapper">
-            <h4 class="main-carousel-slide-item__header-bottom">
-              Accuracy and precision in details
-            </h4>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+<section class="main-carousel">
+    <div class="container-fluid main-carousel-container">
+      <div class="row main-carousel-row">
+        <div class="col-xs-12 main-carousel-col">
+          <div class="carousel slide main-carousel-slide" id="main-carousel">
+            <div class="carousel-inner main-carousel-slide-inner">
+              <div class="item active main-carousel-slide-item">
+                <img class="main-carousel-slide-item__img" alt="Carousel first image" src="../assets/img/main-carousel-slide-item__img_1.jpg">
+                <div class="carousel-caption main-carousel-slide-item__caption">
+                  <div class="main-carousel-slide-item__header-wrapper">
+                    <h3 class="main-carousel-slide-item__header-top">
+                      Moose bring awesomemeness
+                      </h3></div>
+                  <div class="main-carousel-slide-item__header-wrapper">
+                    <h4 class="main-carousel-slide-item__header-bottom">
+                      A responsive template with clean and professional design
+                      </h4></div>
+                  <button type="button" class="btn btn-danger btn-default main-carousel-slide-item__btn">
+                    SEE PROJECT
+                  </button>
+                </div>
               </div>
-            <button type="button" class="btn btn-danger btn-default main-carousel-slide-item__btn">
-              SEE PROJECT
-            </button>
+              <div class="item main-carousel-slide-item">
+                <img class="main-carousel-slide-item__img" alt="Carousel second image" src="../assets/img/main-carousel-slide-item__img_2.jpg">
+                <div class="carousel-caption main-carousel-slide-item__caption">
+                  <div class="main-carousel-slide-item__header-wrapper">
+                    <h3 class="main-carousel-slide-item__header-top">
+                        Moose bring sharpness
+                      </h3>
+                  </div>
+                  <div class="main-carousel-slide-item__header-wrapper">
+                    <h4 class="main-carousel-slide-item__header-bottom">
+                        Accuracy and precision in details
+                      </h4>
+                  </div>
+                  <button type="button" class="btn btn-danger btn-default main-carousel-slide-item__btn">
+                    SEE PROJECT
+                  </button>
+                </div>
+              </div>
+            </div>
+            <a class="left carousel-control main-carousel-slide-control main-carousel-slide-control_left" href="#main-carousel" data-slide="prev"></a>
+            <a class="right carousel-control main-carousel-slide-control main-carousel-slide-control_right" href="#main-carousel" data-slide="next"></a>
           </div>
         </div>
       </div>
-      <a class="left carousel-control main-carousel-slide-control main-carousel-slide-control_left" href="#carousel-241576" data-slide="prev"></a>
-      <a class="right carousel-control main-carousel-slide-control main-carousel-slide-control_right" href="#carousel-241576" data-slide="next"></a>
     </div>
-    </div>
-  </div>
-  </div>
-  </section>
-
-  <main class="services">
-  <div class="container-fluid services-container">
-    <div class="row services-row services-block">
-    <div class="col-sm-12 col-md-12 services-col">
-
-      <header class="services-header">
-        <h2 class="services-header__text">
-          <span class="services-header__accent">Creativity</span> is important for us
-        </h2>
-      </header>
-      <p class="services-text">
-        Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Duis mollis, est non commodo luctus, nisi erat porttitor ligula eget lacinia odio nec elit.
-      </p>
-
-
-
-        <div class="services-thumbnail">
-        <div class="row services-thumbnail-row">
-          <div class="col-xs-12 col-sm-6 col-md-3 services-thumbnail-col services-thumbnail-col_1" id="services-1">
-            Interface Design
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-3 services-thumbnail-col services-thumbnail-col_2" id="services-2">Motion Graphic
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-3 services-thumbnail-col services-thumbnail-col_3" id="services-3">
-            Photography
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-3 services-thumbnail-col services-thumbnail-col_4" id="services-4">
-            Illustration
+</section>
+<main class="services">
+    <div class="container-fluid services-container">
+      <div class="row services-row">
+        <div class="col-sm-12 col-md-12 services-col">
+          <header class="services-header">
+            <h2 class="services-header__text">
+                <span class="services-header__accent">Creativity</span> is important for us
+              </h2>
+          </header>
+          <p class="services-text">
+            Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Duis mollis, est non commodo luctus, nisi erat porttitor ligula eget lacinia odio nec elit.
+          </p>
+          <div class="services-thumbnail">
+            <div class="row services-thumbnail-row">
+              <div class="col-xs-6 col-sm-6 col-md-3 services-thumbnail-col services-thumbnail-col_1" id="services-1">
+                Interface Design
+              </div>
+              <div class="col-xs-6 col-sm-6 col-md-3 services-thumbnail-col services-thumbnail-col_2" id="services-2">Motion Graphic
+              </div>
+              <div class="col-xs-6 col-sm-6 col-md-3 services-thumbnail-col services-thumbnail-col_3" id="services-3">
+                Photography
+              </div>
+              <div class="col-xs-6 col-sm-6 col-md-3 services-thumbnail-col services-thumbnail-col_4" id="services-4">
+                Illustration
+              </div>
+            </div>
           </div>
         </div>
+      </div>
+    </div>
+</main>
+<section class="portfolio">
+    <div class="container-fluid portfolio-container">
+      <div class="row portfolio-row">
+        <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 portfolio-header-col">
+          <header class="portfolio-header">
+            <h3 class="portfolio-header__text">
+                <span class="portfolio-header__accent">Latest Projects | </span> making stuff is awesome
+              </h3></header>
+          <ul class="portfolio-header-links">
+            <li class="portfolio-header-links__item"><a class="portfolio-header-links__href" href="#">All</a></li>
+            <li class="portfolio-header-links__item"><a class="portfolio-header-links__href" href="#">Web desıgn</a></li>
+            <li class="portfolio-header-links__item"><a class="portfolio-header-links__href" href="#">Graphics</a></li>
+            <li class="portfolio-header-links__item"><a class="portfolio-header-links__href" href="#">Video</a></li>
+            <li class="portfolio-header-links__item"><a class="portfolio-header-links__href" href="#">Illustration</a></li>
+            <li class="portfolio-header-links__item"><a class="portfolio-header-links__href" href="#">Audio</a></li>
+          </ul>
         </div>
-    </div>
-    </div>
-  </div>
-  </main>
 
-  <section class="portfolio">
-  <div class="container-fluid portfolio-container">
-    
-  <div class="row portfolio-row">
-    <!--<div class="row portfolio-block">-->
-    <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 portfolio-header-col">
-      <header class="portfolio-header">
-        <h3 class="portfolio-header__text">
-        <span class="portfolio-header__accent">Latest Projects | </span> making stuff is awesome
-        </h3></header>
-      <ul class="portfolio-header-links">
-        <li class="portfolio-header-links__item"><a class="portfolio-header-links__href" href="#">All</a></li>
-        <li class="portfolio-header-links__item"><a class="portfolio-header-links__href" href="#">Web desıgn</a></li>
-        <li class="portfolio-header-links__item"><a class="portfolio-header-links__href" href="#">Graphics</a></li>
-        <li class="portfolio-header-links__item"><a class="portfolio-header-links__href" href="#">Video</a></li>
-        <li class="portfolio-header-links__item"><a class="portfolio-header-links__href" href="#">Illustration</a></li>
-        <li class="portfolio-header-links__item"><a class="portfolio-header-links__href" href="#">Audio</a></li>
-      </ul>
+        <img src="../assets/img/portfolio-thumbnail_1.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6 portfolio-thumbnail">
+        <img src="../assets/img/portfolio-thumbnail_2.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6 portfolio-thumbnail">
+        <img src="../assets/img/portfolio-thumbnail_3.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6 portfolio-thumbnail">
+        <img src="../assets/img/portfolio-thumbnail_4.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6 portfolio-thumbnail">
+        <img src="../assets/img/portfolio-thumbnail_5.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6 portfolio-thumbnail">
+        <img src="../assets/img/portfolio-thumbnail_6.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6 portfolio-thumbnail">
+        <img src="../assets/img/portfolio-thumbnail_7.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6 portfolio-thumbnail">
+        <img src="../assets/img/portfolio-thumbnail_8.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6 portfolio-thumbnail">
+        <img src="../assets/img/portfolio-thumbnail_9.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6 portfolio-thumbnail">
+        <img src="../assets/img/portfolio-thumbnail_10.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6 portfolio-thumbnail">
+        <img src="../assets/img/portfolio-thumbnail_11.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6 portfolio-thumbnail">
+        <img src="../assets/img/portfolio-thumbnail_12.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6 portfolio-thumbnail">
+      </div>
     </div>
-    
-        <img src="../assets/img/thumb1.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6 portfolio-thumbnail">
-        <img src="../assets/img/thumb2.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6 portfolio-thumbnail">
-        <img src="../assets/img/thumb3.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6 portfolio-thumbnail">
-        <img src="../assets/img/thumb4.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6 portfolio-thumbnail">
-        <img src="../assets/img/thumb5.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6 portfolio-thumbnail">
-        <img src="../assets/img/thumb6.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6 portfolio-thumbnail">
-        <img src="../assets/img/thumb7.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6 portfolio-thumbnail">
-        <img src="../assets/img/thumb8.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6 portfolio-thumbnail">
-        <img src="../assets/img/thumb9.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6 portfolio-thumbnail">
-        <img src="../assets/img/thumb10.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6 portfolio-thumbnail">
-        <img src="../assets/img/thumb11.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6 portfolio-thumbnail">
-        <img src="../assets/img/thumb12.jpg" alt="" class="col-md-3 col-sm-4 col-xs-6 portfolio-thumbnail">
+</section>
+<section class="blog">
+    <div class="container-fluid blog-container">
+      <section class="row blog-row">
+        <div class="col-xs-12 col-sm-12 col-md-12 blog-header-col">
+          <header class="blog-header">
+            <h3 class="blog-header__top-text">Our latest blog</h3>
+            <h5 class="blog-header__bottom-text">Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cum sociis natoque penatibus et magnis dis
+                parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus facilisis egestas eget quam.</h5>
+          </header>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 blog-carousel-col">
+          <div class="owl-carousel owl-theme blog-carousel">
+            <div class="item" data-merge="1">
 
-  </div>
+              <a href="#" class="thumbnail blog-carousel-thumbnail"><img class="img-responsive blog-carousel-thumbnail__img" src="../assets/img/blog-carousel-thumbnail__img_1.jpg" alt="blog-carousel-thumbnail_1">
+                <h4 class="blog-carousel-thumbnail__header">Tortor Ullamcorper Fringilla Euismod</h4>
+                <p class="blog-carousel-thumbnail__text">21 may 2013 | Macro, photography</p>
+              </a>
+            </div>
 
-  </div>
-  </section>
-  <section class="blog">
-  <div class="container-fluid blog-container">
-  <section class="row blog-row latest-blog">
-    <div class="col-sm-12 col-md-12 blog-col">
-      <header class="blog-header">
-        <h3 class="blog-header__top-text">Our latest blog</h3>
-        <h5 class="blog-header__bottom-text">Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cum sociis natoque penatibus et magnis dis
-          parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus facilisis egestas eget quam.</h5>
-      </header>
-      <div class="owl-carousel owl-theme blog-carousel">
-    <div class="item blog-carousel__item" data-merge="1">
-       
-                <a href="#" class="thumbnail blog-carousel-thumbnail"><img class="img-responsive blog-carousel-thumbnail__img" src="../assets/img/last_slider1.jpg" alt="Thumb11">
-                  <h4 class="blog-carousel-thumbnail__header">Tortor Ullamcorper Fringilla Euismod</h4>
-                  <p class="blog-carousel-thumbnail__text">21 may 2013 | Macro, photography</p>
-                </a>
-              </div>
-    
-    <div class="item" data-merge="1"> 
-                <a href="#" class="thumbnail blog-carousel-thumbnail"><img class="img-responsive blog-carousel-thumbnail__img" src="../assets/img/last_slider1.jpg" alt="Thumb11">
-                  <h4 class="blog-carousel-thumbnail__header">Tortor Ullamcorper Fringilla Euismod</h4>
-                  <p class="blog-carousel-thumbnail__text">21 may 2013 | Macro, photography</p>
-                </a>
-              </div>
-    <div class="item" data-merge="1"> 
-                <a href="#" class="thumbnail blog-carousel-thumbnail"><img class="img-responsive blog-carousel-thumbnail__img" src="../assets/img/last_slider1.jpg" alt="Thumb11">
-                  <h4 class="blog-carousel-thumbnail__header">Tortor Ullamcorper Fringilla Euismod</h4>
-                  <p class="blog-carousel-thumbnail__text">21 may 2013 | Macro, photography</p>
-                </a>
-              </div>
-    <div class="item" data-merge="1"> 
-                <a href="#" class="thumbnail blog-carousel-thumbnail"><img class="img-responsive blog-carousel-thumbnail__img" src="../assets/img/last_slider1.jpg" alt="Thumb11">
-                  <h4 class="blog-carousel-thumbnail__header">Tortor Ullamcorper Fringilla Euismod</h4>
-                  <p class="blog-carousel-thumbnail__text">21 may 2013 | Macro, photography</p>
-                </a>
-              </div>
-        
-    <div class="item" data-merge="1"> 
-                <a href="#" class="thumbnail blog-carousel-thumbnail"><img class="img-responsive blog-carousel-thumbnail__img" src="../assets/img/last_slider1.jpg" alt="Thumb11">
-                  <h4 class="blog-carousel-thumbnail__header">Tortor Ullamcorper Fringilla Euismod</h4>
-                  <p class="blog-carousel-thumbnail__text">21 may 2013 | Macro, photography</p>
-                </a>
-              </div>
-    <div class="item" data-merge="1"> 
-                <a href="#" class="thumbnail blog-carousel-thumbnail"><img class="img-responsive blog-carousel-thumbnail__img" src="../assets/img/last_slider1.jpg" alt="Thumb11">
-                  <h4 class="blog-carousel-thumbnail__header">Tortor Ullamcorper Fringilla Euismod</h4>
-                  <p class="blog-carousel-thumbnail__text">21 may 2013 | Macro, photography</p>
-                </a>
-              </div>
-    <div class="item" data-merge="1"> 
-                <a href="#" class="thumbnail blog-carousel-thumbnail"><img class="img-responsive blog-carousel-thumbnail__img" src="../assets/img/last_slider1.jpg" alt="Thumb11">
-                  <h4 class="blog-carousel-thumbnail__header">Tortor Ullamcorper Fringilla Euismod</h4>
-                  <p class="blog-carousel-thumbnail__text">21 may 2013 | Macro, photography</p>
-                </a>
-              </div>
-</div>
+            <div class="item" data-merge="1">
+              <a href="#" class="thumbnail blog-carousel-thumbnail"><img class="img-responsive blog-carousel-thumbnail__img" src="../assets/img/blog-carousel-thumbnail__img_2.jpg" alt="blog-carousel-thumbnail_2">
+                <h4 class="blog-carousel-thumbnail__header">Tortor Ullamcorper Fringilla Euismod</h4>
+                <p class="blog-carousel-thumbnail__text">21 may 2013 | Macro, photography</p>
+              </a>
+            </div>
+            <div class="item" data-merge="1">
+              <a href="#" class="thumbnail blog-carousel-thumbnail"><img class="img-responsive blog-carousel-thumbnail__img" src="../assets/img/blog-carousel-thumbnail__img_3.jpg" alt="blog-carousel-thumbnail_3">
+                <h4 class="blog-carousel-thumbnail__header">Tortor Ullamcorper Fringilla Euismod</h4>
+                <p class="blog-carousel-thumbnail__text">21 may 2013 | Macro, photography</p>
+              </a>
+            </div>
+            <div class="item" data-merge="1">
+              <a href="#" class="thumbnail blog-carousel-thumbnail"><img class="img-responsive blog-carousel-thumbnail__img" src="../assets/img/blog-carousel-thumbnail__img_4.jpg" alt="blog-carousel-thumbnail_4">
+                <h4 class="blog-carousel-thumbnail__header">Tortor Ullamcorper Fringilla Euismod</h4>
+                <p class="blog-carousel-thumbnail__text">21 may 2013 | Macro, photography</p>
+              </a>
+            </div>
+
+            <div class="item" data-merge="1">
+              <a href="#" class="thumbnail blog-carousel-thumbnail"><img class="img-responsive blog-carousel-thumbnail__img" src="../assets/img/blog-carousel-thumbnail__img_1.jpg" alt="blog-carousel-thumbnail_5">
+                <h4 class="blog-carousel-thumbnail__header">Tortor Ullamcorper Fringilla Euismod</h4>
+                <p class="blog-carousel-thumbnail__text">21 may 2013 | Macro, photography</p>
+              </a>
+            </div>
+            <div class="item" data-merge="1">
+              <a href="#" class="thumbnail blog-carousel-thumbnail"><img class="img-responsive blog-carousel-thumbnail__img" src="../assets/img/blog-carousel-thumbnail__img_2.jpg" alt="blog-carousel-thumbnail_6">
+                <h4 class="blog-carousel-thumbnail__header">Tortor Ullamcorper Fringilla Euismod</h4>
+                <p class="blog-carousel-thumbnail__text">21 may 2013 | Macro, photography</p>
+              </a>
+            </div>
+            <div class="item" data-merge="1">
+              <a href="#" class="thumbnail blog-carousel-thumbnail"><img class="img-responsive blog-carousel-thumbnail__img" src="../assets/img/blog-carousel-thumbnail__img_3.jpg" alt="blog-carousel-thumbnail_7">
+                <h4 class="blog-carousel-thumbnail__header">Tortor Ullamcorper Fringilla Euismod</h4>
+                <p class="blog-carousel-thumbnail__text">21 may 2013 | Macro, photography</p>
+              </a>
+            </div>
+            <div class="item" data-merge="1">
+              <a href="#" class="thumbnail blog-carousel-thumbnail"><img class="img-responsive blog-carousel-thumbnail__img" src="../assets/img/blog-carousel-thumbnail__img_4.jpg" alt="blog-carousel-thumbnail_8">
+                <h4 class="blog-carousel-thumbnail__header">Tortor Ullamcorper Fringilla Euismod</h4>
+                <p class="blog-carousel-thumbnail__text">21 may 2013 | Macro, photography</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
-  </section>
-  </div>
-  </section>
-  
-  
-    <section class="about">
+</section>
+<section class="about">
     <div class="container-fluid about-container">
       <div class="row about-row">
-    <div class="col-sm-6 col-md-3 col-lg-2 about-article-col">
-      <article class="about-article">
-        <header class="about-article-header">
-          <h2 class="about-article-header__text">
-          Get In Touch
-          </h2>
-        </header>
-        <p class="about-article__text">
-          Fusce dapibus, tellus commodo, tortor mauris condimentum utellus fermentum, porta sem malesuada magna.
-        </p>
-        <p class="about-article__text">
-          Moonshine Street No: 14/05 Light City, Jupiter 0247 541 65 87 support@longwave.com
-        </p>
-      </article>
+        <div class="col-sm-6 col-md-3 col-lg-3 about-article-col">
+          <article class="about-article">
+            <header class="about-article-header">
+              <a href="#" class="about-article-header__text">
+                  Get In Touch
+                </a>
+            </header>
+            <p class="about-article__text">
+              Fusce dapibus, tellus commodo, tortor mauris condimentum utellus fermentum, porta sem malesuada magna.
+            </p>
+            <p class="about-article__text">
+              Moonshine Street No: 14/05 Light City, Jupiter 0247 541 65 87 support@longwave.com
+            </p>
+          </article>
+        </div>
+        <div class="col-sm-5 col-md-3 col-lg-3 about-article-col">
+          <article class="about-article">
+            <header class="about-article-header">
+              <a href="#" class="about-article-header__text">
+                  Twitter
+                </a></header>
+            <p class="about-article__text">
+              Aenean lacinia bibendum nulla sed leo posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper metus auctor fringilla. Nullam quis risus eget. Vestibulum id ligula porta euismod semper. Maecenas faucibus mollis.
+            </p>
+          </article>
+        </div>
+        <div class="col-sm-6  col-md-3 col-lg-3 about-article-col">
+          <article class="about-article">
+            <header class="about-article-header">
+              <a href="#" class="about-article-header__text">
+                  Popular Posts
+                </a>
+            </header>
+            <p class="about-article__text">
+              Vivamus sagittis lacus vel augue laoreet rutrum dolor auctor. 14 Nov, 2012
+            </p>
+            <p class="about-article__text">
+              Scelerisque nisl consectetur et. 22 May, 2012
+            </p>
+            <p class="about-article__text">
+              Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusc 15 July, 2012
+            </p>
+          </article>
+        </div>
+        <div class="col-sm-6  col-md-3 col-lg-3 about-article-col">
+          <article class="about-article">
+            <header class="about-article-header">
+              <a href="#" class="about-article-header__text">
+                  About Us
+                </a>
+            </header>
+            <p class="about-article__text">
+              Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+            </p>
+            <p class="about-article__text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus curabitur blandit tempus.
+            </p>
+          </article>
+        </div>
+      </div>
     </div>
-    <div class="col-sm-5 col-md-3 col-lg-2 about-article-col">
-      <article class="about-article">
-        <header class="about-article-header">
-          <h2 class="about-article-header__text">
-          Twitter
-          </h2></header>
-        <p class="about-article__text">
-          Aenean lacinia bibendum nulla sed leo posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper metus auctor fringilla. Nullam quis risus eget. Vestibulum id ligula porta euismod semper. Maecenas faucibus mollis.
-        </p>
-      </article>
+</section>
+<footer class="footer">
+    <div class="container-fluid footer-container">
+      <div class="row footer-row">
+        <div class="col-xs-12 col-sm-12 col-md-12 footer-col">
+          <div class="footer-text">© 2015 Marble. All rights reserved.</div>
+        </div>
+      </div>
     </div>
-    <div class="col-sm-6  col-md-3 col-lg-2 about-article-col">
-      <article class="about-article">
-        <header class="about-article-header">
-          <h2 class="about-article-header__text">
-          Popular Posts
-          </h2>
-        </header>
-        <p class="about-article__text">
-          Vivamus sagittis lacus vel augue laoreet rutrum dolor auctor. 14 Nov, 2012
-        </p>
-        <p class="about-article__text">
-          Scelerisque nisl consectetur et. 22 May, 2012
-        </p>
-        <p class="about-article__text">
-          Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusc 15 July, 2012
-        </p>
-      </article>
-    </div>                   
-    <div class="col-sm-6  col-md-3 col-lg-2 about-article-col">
-      <article class="about-article">
-        <header class="about-article-header">
-          <h2 class="about-article-header__text">
-          About Us
-          </h2>
-        </header>
-        <p class="about-article__text">
-          Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-        </p>
-        <p class="about-article__text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus curabitur blandit tempus.
-        </p>
-      </article>
-    </div>
-  </div></div>
-      </section>
-  <footer class="footer">
-  <div class="container-fluid footer-container">
-  <div class="row footer-row">
-    <div class="col-xs-12 col-sm-12 col-md-12 footer-col">
-      <div class="footer-text">© 2013 Marble. All rights reserved.</div>
-    </div>
-  </div>
-    </div>
-    </footer>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+<script>
   
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
-
-  <script>
-    $('#myCarousel').carousel({
-      interval: 5000
-    });
-
-    $('.owl-carousel').owlCarousel({
-      items:4,
-      loop:true,
-      margin:10,
-      merge:true,
-      responsive:{
-        678:{
-          items:4,
-          mergeFit:true
-        },
-        1000:{
-          items:4,
-          mergeFit:false
+  ! function (t) {
+    t.fn.bcSwipe = function (e) {
+      var n = {
+        threshold: 50
+      };
+      return e &&
+      t.extend(n, e), this.each(function () {
+        function e(t) {
+          1 ==
+          t.touches.length &&
+          (u = t.touches[0].pageX, c = !0, this.addEventListener("touchmove", o, !1))
         }
+        function o(e) {
+          if (c) {
+            var o = e.touches[0].pageX,
+                i = u -
+                  o;
+            Math.abs(i) >=
+            n.threshold &&
+            (h(), t(this).carousel(i >
+            0 ? "next" : "prev"))
+          }
+        }
+        function h() {
+          this.removeEventListener("touchmove", o), u = null, c = !1
+        }
+        var u, c = !1;
+        "ontouchstart" in
+        document.documentElement &&
+        this.addEventListener("touchstart", e, !1)
+      }), this
+    }
+  }(jQuery);
+  $('#main-carousel').carousel({
+    interval: 5000
+  }).bcSwipe({
+    threshold: 35
+  });
+  var $owl = $('.blog-carousel').owlCarousel({
+    items: 4,
+    loop: true,
+    margin: 15,
+    merge: true,
+    responsive: {
+      991: {
+        items: 4,
+        mergeFit: false
+      },
+      767: {
+        items: 3,
+        mergeFit: true
+      },
+      479: {
+        items: 2,
+        mergeFit: true
+      },
+      1: {
+        items: 1,
+        mergeFit: true
       }
-    });
-  </script>
+    }
+  });
+  $(window).resize(function () {
+    $owl.trigger('refresh.owl.carousel');
+  });
+</script>
 </body>
 </html>
