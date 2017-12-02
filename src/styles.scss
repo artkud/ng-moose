@@ -411,7 +411,6 @@ a:active {
 
 .portfolio-thumbnail {
   z-index: 1;
-  display: flex;
   overflow: hidden;
   margin-bottom: 15px;
   padding-right: 0;
@@ -571,7 +570,7 @@ a:active {
   line-height: 60px;
 }
 
-@media (max-width: 1570px) {
+@media (max-width: 1569px) {
   .blog-carousel-thumbnail__img {
     max-height: 180px
   }
